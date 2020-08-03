@@ -37,6 +37,6 @@ async def seconddp(event):
             ))
             os.remove(photo)
             counter -= 30
-            await asyncio.sleep(10)
+            await asyncio.sleep(500)
         except:
             return
