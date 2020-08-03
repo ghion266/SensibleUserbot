@@ -28,7 +28,7 @@ async def _(event):
             return
         if event.is_private:
          
-         PM = ("`Hello. You are accessing the availabe menu of my peru master,`"
+         PM = ("`Hello. You are accessing the availabe menu of GTS,`"
                f"{DEFAULTUSER}.\n"
                "__PLease LEt me Know How You are here.__\n"
                "**Choose one of the following reasons why you are here:**\n\n"
@@ -37,13 +37,13 @@ async def _(event):
 
                "`3`. To enquire something\n"
                "`4`. To request something\n")
-         ONE = ("__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He is a busy man, Please Wait Sir.__\n\n"
-                "**⚠️ Please Donot Spam My Masters Inbox He Doesnt Likes That. ⚠️**\n\n"
+         ONE = ("__Okay. Your request has been registered. Do not spam GTS inbox.You can expect a reply within 24 light years. He is a busy man, Please Wait Sir.__\n\n"
+                "**⚠️ Please Donot Spam GTS Inbox He Doesnt Likes That. ⚠️**\n\n"
                 "__Use__ `/start` __to go back to the main menu.__")
          TWO = (" `███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ `\n\n**I Didnt Like That Thats Not Good And My Master Also Dont Like that So You Have Been Blocked Sorry For Inconvienence.**")
-         FOUR = ("__Okay. My master has not seen your message yet.He usually responds to people,though idk about retarted ones.__\n __He'll respond when he comes back, if he wants to.There's already a lot of pending messages😶__\n **⚠️ Please Donot Spam My Masters Inbox He Doesnt Likes That. ⚠️**")
+         FOUR = ("__Okay. GTs has not seen your message yet.He usually responds to people,though idk about retarted ones.__\n __He'll respond when he comes back, if he wants to.There's already a lot of pending messages😶__\n **⚠️ Please Donot Spam My Masters Inbox He Doesnt Likes That. ⚠️**")
          FIVE = ("`⚠️ Please Donot Spam My Masters Inbox He Doesnt Likes That. ⚠️.**")
-         LWARN = ("**⚠️ Please Donot Spam My Masters Inbox He Doesnt Likes That. He Will Respond In 2 Light Years Please Wait Until He Reply ⚠️.**\n__Use__ `/start` __to go back to the main menu.__")
+         LWARN = ("**⚠️ Please Donot Spam GTS Inbox He Doesnt Likes That. He Will Respond In 2 Light Years Please Wait Until He Reply ⚠️.**\n__Use__ `/start` __to go back to the main menu.__")
      
         async with borg.conversation(chat) as conv:
          await borg.send_message(chat, PM)
